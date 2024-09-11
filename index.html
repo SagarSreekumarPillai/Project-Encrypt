@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Let's Encrypt
+     </title>
+     <meta name="og:image" content="https://letsencrypt.org/images/LetsEncrypt-SocialShare.png">
+    <!-- <link rel="stylesheet" href="styles.css" type="text/css"> -->
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="wrapper">
+            <a class="site-title" href="/">
+                <img src="images/letsencrypt-logo-horizontal.svg" alt="Let's Encrypt">
+            </a>
+            <span id="menuIcon">
+                <i class="fas fa-bars"></i>
+            </span>
+            <nav class="site-nav">
+                <div class="pure-menu pure-menu-horizontal custom-can-transform">
+                    <ul class="pure-menu-list">
+                        <li class="pure-menu-item" role="none">
+                            <a href="/docs/" class="pure-menu-link" tabindex="0" role="menuitem">Documentation</a>
+                        </li>
+                        <li class="pure-menu-item" role="none">
+                            <a href="https://community.letsencrypt.org/" class="pure-menu-link" tabindex="0" role="menuitem">
+                                Get Help
+                            </a>
+                        </li>
+                        <li class="pure-menu-item pure-menu-has-children">
+                            <a href="#" class="pure-menu-link" tabindex="0" role="menuitem" aria-haspopup="true" aria-expanded="false">
+                                Donate
+                            </a>
+                        </li>
+                        <li class="pure-menu-item pure-menu-has-children">
+                            <a class="pure-menu-link">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="pure-menu-item pure-menu-has-children">
+                            <a class="pure-menu-link">
+                                Languages 
+                                <img src="images/language-icon128px-black.png" class="inline-icon" alt="" aria-hidden="true">
+                            </a>
+                           
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="hero tall">
+        <div class="container">
+            <h1>
+                A nonprofit Certificate Authority providing TLS certificates to 
+                <span>
+                    450 million
+                </span> 
+                websites.
+            </h1>
+            <h2>
+                Read all about our nonprofit work this year in our  
+                <a href="https://abetterinternet.org/annual-reports/">
+                    2023 Annual Report
+                </a>
+                .
+            </h2>
+            <div class="buttons flex">
+                <div class="flex1 tar min">
+                    <a class="dib" href="#">Get Started</a>
+                </div>
+                <div class="flex1 tal ml1m">
+                    <a class="dib" href="#">Sponsor</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-content">
+        <div class="wrapper">
+            <div class>
+                <div class="pure-g home">
+                    <div class="pure-u-1 pure-u-md-1-2">
+                        <div class="grid-container">
+                            <h2 class="through-line">
+                                <a href="/blog/">
+                                    From our blog
+                                </a>
+                            </h2>
+                            <ul class="post-list">
+                                <li>
+                                    <span class="post-meta">Jul 23, 2024</span>
+                                    <h2>
+                          
+                                        <a class="post-link" href="/2024/07/23/replacing-ocsp-with-crls" hreflang="en">Intent to End OCSP Service</a>
+                                      
+                                    </h2>
+                                    Moving to a more privacy-respecting and efficient method of checking certificate revocation.
+                                    <p class="post-excerpt">
+                          
+                                        <a href="/2024/07/23/replacing-ocsp-with-crls" hreflang="en">Read more</a>
+                                      
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <span class="post-meta">Jun 24, 2024</span>
+                                    <h2>
+                          
+                                        <a class="post-link" href="/2024/06/24/ntpd-rs-deployment" hreflang="en">More Memory Safety for Let’s Encrypt: Deploying ntpd-rs</a>
+                                      
+                                    </h2>
+                                    NTP is critical to how TLS works, and now it’s memory safe at Let’s Encrypt.
+                                    <p class="post-excerpt">
+                          
+                                        <a href="/2024/06/24/ntpd-rs-deployment" hreflang="en">Read more</a>
+                                      
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <span class="post-meta">May 30, 2024</span>
+                                    <h2>
+                          
+                                        <a class="post-link" href="/2024/05/30/princeton-partnership" hreflang="en">Let’s Encrypt Continues Partnership with Princeton to Bolster Internet Security</a>
+                                      
+                                    </h2>
+                                    Increasing defense against BGP attacks thanks to support from the Open Technology Fund.
+                                    <p class="post-excerpt">
+                          
+                                        <a href="/2024/05/30/princeton-partnership" hreflang="en">Read more</a>
+                                      
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <span class="post-meta">May 1, 2024</span>
+                                    <h2>
+                          
+                                        <a class="post-link" href="/2024/05/01/ari-in-tailscale" hreflang="en">Takeaways from Tailscale’s Adoption of ARI</a>
+                                      
+                                    </h2>
+                                    ACME Renewal Info (ARI) enables easy and automated cert revocation and replacement.
+                                    <p class="post-excerpt">
+                          
+                                        <a href="/2024/05/01/ari-in-tailscale" hreflang="en">Read more</a>
+                                      
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <span class="post-meta">Apr 25, 2024</span>
+                                    <h2>
+                          
+                                        <a class="post-link" href="/2024/04/25/guide-to-integrating-ari-into-existing-acme-clients" hreflang="en">An Engineer’s Guide to Integrating ARI into Existing ACME Clients</a>
+                                      
+                                    </h2>
+                                    Six steps developers can take to integrate ARI into an existing ACME client.
+                                    <p class="post-excerpt">
+                          
+                                        <a href="/2024/04/25/guide-to-integrating-ari-into-existing-acme-clients" hreflang="en">Read more</a>
+                                      
+                                    </p>
+                                </li>
+                            </ul>
+
+                            <p class="rss-subscribe">
+                                <i class="fas fa-rss-square" aria-hidden="true"></i>
+                                Subscribe <a href="/feed.xml">via RSS</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="pure-u-1 pure-u-md-1-2">
+                        <div class="grid-container">
+                            <h2 class="through-line">
+                                <a href="/sponsors/">
+                                    Major Sponsors and Funders
+                                </a>
+                            </h2>
+                            <div class="text-center home_sponsors">
+                                <a href="https://www.google.com/chrome/" rel="nofollow">
+                                    <img src="images/sponsors/small/chrome-logo.png" alt="Google Chrome" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://aws.amazon.com/">
+                                    <img src="images/sponsors/small/aws-logo-2.png" alt="Amazon Web Services" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.mozilla.org/">
+                                    <img src="images/sponsors/small/mozilla-logo.png" alt="Mozilla" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.cisco.com/">
+                                    <img src="images/sponsors/small/cisco-logo.png" alt="Cisco" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.eff.org/">
+                                    <img src="images/sponsors/small/eff-logo.png" alt="Electronic Frontier Foundation" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.ovh.com/">
+                                    <img src="images/sponsors/small/ovh-logo.png" alt="OVH" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.meta.com/">
+                                    <img src="images/sponsors/small/meta-logo.png" alt="Meta" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.identrust.com/">
+                                    <img src="images/sponsors/small/identrust-logo.png" alt="IdenTrust" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.fordfound.org/">
+                                    <img src="images/sponsors/small/ford-foundation-logo.png" alt="Ford Foundation" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.shopify.com/">
+                                    <img src="images/sponsors/small/shopify-logo.png" alt="Shopify" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.ibm.com/">
+                                    <img src="images/sponsors/small/ibm-logo.png" alt="IBM" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.sap.com/">
+                                    <img src="images/sponsors/small/sap-logo.svg" alt="SAP" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.squarespace.com/">
+                                    <img src="images/sponsors/small/squarespace-logo.png" alt="Squarespace" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://automattic.com/">
+                                    <img src="images/sponsors/small/automattic-logo.png" alt="Automattic" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.akamai.com/">
+                                    <img src="images/sponsors/small/akamai-logo.png" alt="Akamai" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.cyon.ch/">
+                                    <img src="images/sponsors/small/cyon-logo.png" alt="Cyon" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.infomaniak.ch/">
+                                    <img src="images/sponsors/small/infomaniak-logo.png" alt="Infomaniak" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.hostpoint.ch/">
+                                    <img src="images/sponsors/small/hostpoint-logo.png" alt="HostPoint" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.siteground.com/">
+                                    <img src="images/sponsors/small/siteground-logo.png" alt="SiteGround" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.vultr.com">
+                                    <img src="images/sponsors/small/vultr-logo.png" alt="Vultr" width="80" height="48" class="sponsor-logo-small">
+                                </a>   
+                                <a href="https://www.planethoster.com/">
+                                    <img src="images/sponsors/small/planethoster-logo.png" alt="Hébergement web" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.fastly.com/">
+                                    <img src="images/sponsors/small/fastly-logo.png" alt="Fastly" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.3cx.com/">
+                                    <img src="images/sponsors/small/3cx-logo.png" alt="3CX" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.jimdo.com/">
+                                    <img src="images/sponsors/small/jimdo-logo.png" alt="Jimdo" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.zendesk.com/">
+                                    <img src="images/sponsors/small/zendesk-logo.png" alt="Zendesk" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.netlify.com/">
+                                    <img src="images/sponsors/small/netlify-logo.png" alt="Netlify" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.hostpapa.com/lets-encrypt-hosting?utm_source=letsencrypt.org&amp;utm_medium=referral&amp;utm_campaign=us-seo&amp;utm_term=web-hosting&amp;utm_content=180x108-logo">
+                                    <img src="images/sponsors/small/hostpapa-logo.png" alt="HostPapa" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://dnsimple.com/letsencrypt">
+                                    <img src="images/sponsors/small/dnsimple-logo.png" alt="dnsimple" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://shiguredo.jp/">
+                                    <img src="images/sponsors/small/shiguredo-v2-logo.svg" alt="Shiguredo" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.discourse.org/">
+                                    <img src="images/sponsors/small/discourse-logo.png" alt="Discourse" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://driving-tests.org/">
+                                    <img src="images/sponsors/small/driving-tests-logo.png" alt="driving-tests.org" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.sakura.ad.jp/">
+                                    <img src="images/sponsors/small/sakura-logo.png" alt="Sakura Internet" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.duocircle.com/">
+                                    <img src="images/sponsors/small/duocircle-logo.png" alt="DuoCircle" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://brave.com/">
+                                    <img src="images/sponsors/small/brave-logo.png" alt="Brave" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://serverpilot.io/">
+                                    <img src="images/sponsors/small/serverpilot-logo.png" alt="ServerPilot" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://domainname.shop/">
+                                    <img src="images/sponsors/small/domainnameshop-logo.png" alt="DomainName.Shop" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://github.com/">
+                                    <img src="images/sponsors/small/github-logo.png" alt="GitHub" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://unraid.net/">
+                                    <img src="images/sponsors/small/unraid-logo.png" alt="Lime Technology (Unraid)" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://keenetic.com/">
+                                    <img src="images/sponsors/small/keenetic-logo.png" alt="Keenetic" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.haproxy.com/">
+                                    <img src="images/sponsors/small/haproxy-logo.png" alt="HAProxy" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.mongodb.com/">
+                                    <img src="images/sponsors/small/mongodb-logo.png" alt="MongoDB" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.livesport.eu/">
+                                    <img src="images/sponsors/small/livesport-logo.png" alt="Livesport" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.clever-cloud.com/">
+                                    <img src="images/sponsors/small/clevercloud-logo.png" alt="Clever Cloud" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://ipinfo.io/">
+                                    <img src="images/sponsors/small/ipinfo-logo.png" alt="IPInfo" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.greengeeks.com/">
+                                    <img src="images/sponsors/small/greengeeks-logo.png" alt="GreenGeeks" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.redhat.com/">
+                                    <img src="images/sponsors/small/redhat-logo.png" alt="RedHat" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.nabucasa.com/">
+                                    <img src="images/sponsors/small/nabu-casa-logo.png" alt="Nabu Casa" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.wix.com/">
+                                    <img src="images/sponsors/small/wix-logo.png" alt="Wix" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.heroku.com/">
+                                    <img src="images/sponsors/small/heroku-logo.png" alt="Heroku" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.wpbeginner.com/">
+                                    <img src="images/sponsors/small/wpbeginner-logo.png" alt="WPBeginner" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.hoststar.ch/">
+                                    <img src="images/sponsors/small/hoststar-logo.png" alt="Hoststar" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.one.com/">
+                                    <img src="images/sponsors/small/one-com-logo.png" alt="one.com" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://cargo.site/">
+                                    <img src="images/sponsors/small/cargo-logo.png" alt="Cargo" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://rackspeed.de/">
+                                    <img src="images/sponsors/small/rack-speed-logo.png" alt="RACK::SPEED" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.duda.co/">
+                                    <img src="images/sponsors/small/duda-logo.png" alt="Duda" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.ads.com/">
+                                    <img src="images/sponsors/small/ads-com-logo.png" alt="Ads.com" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.cdmon.com/es/">
+                                    <img src="images/sponsors/small/cdmon-logo.png" alt="cdmon" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://goteleport.com/">
+                                    <img src="images/sponsors/small/teleport-logo.png" alt="Teleport" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.nginx.com/">
+                                    <img src="images/sponsors/small/nginx-logo.png" alt="NGINX" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://actonfamilygiving.org/">
+                                    <img src="images/sponsors/small/acton-family-giving-logo.png" alt="Acton Family Giving" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://tailscale.com/">
+                                    <img src="images/sponsors/small/tailscale-logo.svg" alt="Tailscale" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://bitlaunch.io/">
+                                    <img src="images/sponsors/small/bitlaunch-logo.svg" alt="BitLaunch" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.iban.com/">
+                                    <img src="images/sponsors/small/iban-logo.png" alt="IBAN" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://yubico.com/">
+                                    <img src="images/sponsors/small/yubico-logo.png" alt="Yubico" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.4kdownload.com/-1uvr6/video-downloader">
+                                    <img src="images/sponsors/small/4kdownload-logo.png" alt="Video Downloader" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.entri.com/">
+                                    <img src="images/sponsors/small/entri-logo.svg" alt="Entri" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.confluent.io/">
+                                    <img src="images/sponsors/small/confluent-logo.svg" alt="Confluent" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.jetbrains.com/">
+                                    <img src="images/sponsors/small/jetbrains-logo.png" alt="Jet Brains" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://ngrok.com/">
+                                    <img src="/images/sponsors/small/ngrok-logo.png" alt="Ngrok" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.securew2.com/">
+                                    <img src="images/sponsors/small/securew2-logo.svg" alt="SecureW2" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://www.20i.com/">
+                                    <img src="images/sponsors/small/20i-logo.svg" alt="20i" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://serpapi.com/">
+                                    <img src="images/sponsors/small/SerpApi-black.png" alt="SerpApi" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                                <a href="https://ipv6.rs/">
+                                    <img src="images/sponsors/small/ipv6rs-logo.png" alt="IPv6rs" width="80" height="48" class="sponsor-logo-small">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="donate-footer">
+        <div class="wrapper text-center">
+            <h2>Support a more secure and privacy-respecting Web.</h2>
+            <div class="buttons">
+              <a class="accent" href="/donate/">Donate</a>
+            </div>
+          </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="wrapper">
+            <div class="footer-col-wrapper">
+                <div class="footer-col  footer-col-2">
+                    <p>
+                        Let's Encrypt is a free, automated, and open certificate authority brought to you by the nonprofit 
+                        <a href="https://www.abetterinternet.org/">
+                            Internet Security Research Group (ISRG)
+                        </a>
+                        . Read all about our nonprofit work this year in our <a href="https://www.abetterinternet.org/annual-reports/">2023 Annual Report</a>.
+                    </p>
+                    <p>
+                        <span itemscope="" itemtype="http://schema.org/PostalAddress">
+                          <span itemprop="streetAddress">548 Market St, PMB 77519</span>,
+                          <span itemprop="addressLocality">San Francisco</span>,
+                          <span itemprop="addressRegion">CA</span>
+                          <span itemprop="postalCode">94104-5401</span>,
+                          <span itemprop="addressCountry">USA</span>
+                        </span>
+                    </p>
+                    <p>Send all mail or inquiries to:</p>
+                    <p>
+                        <span itemscope="" itemtype="http://schema.org/PostalAddress">
+                          <span itemprop="streetAddress">PO Box 18666</span>,
+                          <span itemprop="addressLocality">Minneapolis</span>,
+                          <span itemprop="addressRegion">MN</span>
+                          <span itemprop="postalCode">55418-0666</span>,
+                          <span itemprop="addressCountry">USA</span>
+                        </span>
+                    </p>
+                </div>
+                <div class="footer-col  footer-col-1">
+                    <ul class="social-media-list">
+                        <li>
+                            <a href="https://github.com/letsencrypt">
+                              <i class="fab fa-github" aria-hidden="true"></i>
+                              <span class="username">GitHub</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/lets-encrypt/">
+                              <i class="fab fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                              <span class="username">LinkedIn</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://x.com/letsencrypt">
+                              <i class="fab fa-brands fa-x-twitter" aria-hidden="true"></i>
+                              <span class="username">X</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a rel="me" href="https://infosec.exchange/@letsencrypt">
+                              <i class="fab fa-mastodon" aria-hidden="true"></i>
+                              <span class="username">Mastodon</span>
+                            </a>
+                        </li>
+                    </ul>
+                        View our <a href="/privacy/">privacy policy</a> .
+                        <br>
+                        
+                        View our <a href="https://www.abetterinternet.org/trademarks">trademark policy</a> .
+
+                </div>
+                <div class="footer-col footer-newsletter-col  footer-col-3">
+                    <h6>Subscribe for email updates about Let's Encrypt and other ISRG projects</h6>
+                    <iframe src="https://outreach.abetterinternet.org/l/1011011/2023-02-16/6l51" height="200" style="width: 100%; border: 0">
+
+                    </iframe>
+                    <div class="footer-copyright">
+                        <a href="https://abetterinternet.org">© 2024  Internet Security Research Group</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
